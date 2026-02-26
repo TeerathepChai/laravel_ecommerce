@@ -1,0 +1,143 @@
+/* ===== Profile Page ===== */
+
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.page-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.danger-card {
+    border-left: 5px solid #e53935;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form */
+
+.card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.card button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.card button:hover {
+    opacity: 0.9;
+}
+
+/* Delete button */
+
+.danger-card button {
+    background-color: #e53935;
+}
+
+/* ===== Profile Section ===== */
+
+.profile-section {
+    padding: 10px 0;
+}
+
+.section-header h2 {
+    font-size: 22px;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+.section-header p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* ===== Form ===== */
+
+.custom-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #1e3a8a;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(30,58,138,0.15);
+}
+
+/* ===== Buttons ===== */
+
+.btn-primary {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #16306b;
+}
+
+/* ===== Messages ===== */
+
+.error-text {
+    color: #dc2626;
+    font-size: 13px;
+}
+
+.success-text {
+    color: #16a34a;
+    margin-left: 15px;
+    font-size: 14px;
+}
